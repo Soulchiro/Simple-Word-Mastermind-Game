@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
+
 const WordMastermind = () => {
-  const secretWord = 'КОФЕ'; // Replace with your own secret word
+  const secretWord = 'КОФЕ'; 
   const [guess, setGuess] = useState('');
   const [feedback, setFeedback] = useState([]);
   const [attempts, setAttempts] = useState(0);
